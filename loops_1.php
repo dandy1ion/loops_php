@@ -47,7 +47,7 @@
         <br />
         Part 2:
         <br />
-        <?php
+        <?php // for loop - squares of numbers 1-12
             for($i=1;$i<=12;$i++) {
                 echo $i.'<sup>2</sup> = '.pow($i,2).'<br />';
             }
@@ -55,7 +55,7 @@
         <br />
         <br />
         Part 3:
-        <?php
+        <?php // for loops nested to create multiplication table
             echo "<table border =\"1\" style='border-collapse: collapse'>";
             for ($row=1; $row <= 7; $row++) {
                 echo "<tr> \n";
@@ -71,7 +71,7 @@
         <br />
         Part 4:
         <br />
-        <?php  //foreach loops
+        <?php  //foreach loops to create month and days table
             $months = array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
             $daysInMonth = array(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
             echo "<table border =\"1\" style='border-collapse: collapse'><tr><th>Days in a Month</th></tr>";
